@@ -1,0 +1,8 @@
+body {
+    background-image: -moz-element();
+    background-color: rgb(32, 53, 33);
+    border-bottom-color: aqua;
+}
+h1{
+    color:rgb(172, 143, 72);
+}
