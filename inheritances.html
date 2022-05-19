@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+   /* class timer extends Date 
+    {
+        constructor()
+        {
+            super();
+        }
+    }
+    var m=new timer();
+    document.writeln("current date");
+    document.writeln(m.getDate());
+    document.writeln(m.getDay());
+    document.writeln(m.getTime());
+    document.writeln(m.getFullYear());
+    document.writeln(m.getTimezoneOffset());*/
+
+class A 
+{
+  constructor()
+  {
+      this.course="CSC";
+  }
+}
+class B extends A{
+    constructor(id,name)
+    {
+        super();
+        this.id=id;
+        this.name=name;
+     
+  }
+  display()
+  {
+      document.write(this.id);
+      document.writeln(this.name);
+      document.writeln(this.course);
+  }
+}
+var b1=new B(1,"karthika");
+b1.display();
+
+</script>
+</body>
+</html>
